@@ -15,6 +15,7 @@ local_settings.py
 .pid
 .fseventsd/
 .Trashes/
+.idea
 
 Build
 build

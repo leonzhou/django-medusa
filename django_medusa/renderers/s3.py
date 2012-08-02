@@ -62,7 +62,7 @@ def _s3_render_path(args):
         bucket = _get_bucket()
 
     # Render the view
-    resp = client.get(path)
+    resp = client.get(path, follow=True)
     if resp.status_code != 200:
         raise Exception
 
